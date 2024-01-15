@@ -1,0 +1,57 @@
+html {
+  font-family: "Figtree", sans-serif;
+  height: 100%;
+}
+p {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+h1 {
+  width: fit-content;
+  font-size: 26px;
+  font-weight: 800;
+}
+h1:hover {
+  cursor: pointer;
+  color: hsl(47, 88%, 63%);
+}
+
+body {
+  height: 100%;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 60%;
+  width: 22%;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+}
+.content {
+  margin: 5%;
+  display: grid;
+  gap: 15px;
+}
+.ilustration {
+  width: 100%;
+  border-radius: 15px;
+}
+.learning {
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 800;
+  background-color: hsl(47, 88%, 63%);
+}
+.my-boy-greg {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
